@@ -1,7 +1,9 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "nodemon supabase/server.js"
+    "dev": "nodemon supabase/server.js",
+    "start": "node supabase/server.js",
+    "start:prod": "NODE_ENV=production node supabase/server.js"
   },
   "devDependencies": {
     "@types/express": "^5.0.3",
